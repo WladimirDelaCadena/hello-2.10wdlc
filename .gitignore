@@ -1,0 +1,78 @@
+# Ignore Debian packaging build artifacts
+*.deb
+*.changes
+*.dsc
+*.udeb
+
+# Ignore auto-generated files during build
+debian/files
+debian/*.substvars
+debian/*.debhelper.log
+debian/*debhelper
+debian/*debhelper.log
+debian/*debhelper-env-*
+
+# Ignore build directory
+debian/build-*
+
+# Ignore compiled binaries
+bin/
+*.so
+
+# Ignore build output
+build/
+dist/
+
+# Ignore local configuration files
+.DS_Store
+Thumbs.db
+
+# Ignore editor-related files
+*.swp
+*~
+
+# Ignore temporary files
+*.bak
+*.backup
+
+# Ignore logs and other generated files
+*.log
+*.log.*
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.tar.lzma
+*.tar.Z
+*.tar.sz
+*.tar.lzo
+*.tar.lz4
+*.tar.zst
+*.rpm
+*.deb
+*.jar
+*.war
+*.ear
+
+# Ignore Python related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyz
+
+# Ignore Node.js related files
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore local development files
+.local/
+.vscode/
+.idea/
+*.iml
